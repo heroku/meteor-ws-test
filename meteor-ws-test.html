@@ -1,0 +1,21 @@
+<head>
+  <title>meteor-ws-test</title>
+  <style>
+    body {
+    font-family: Tahoma, Geneva, sans-serif;
+    }
+
+    div {
+    display: inline;
+    }
+  </style>
+</head>
+
+<body>
+  {{> stats}}
+</body>
+
+<template name="stats">
+  <strong>Stats</strong><br>
+  Last ping: {{ping}}<br>
+</template>
