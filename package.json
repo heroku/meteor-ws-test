@@ -2,6 +2,6 @@
 "name": "meteor-ws-test",
 "version": "0.0.1",
 "engines": {
-"node": "0.8.24"
+"node": "0.8.25"
 }
 }
