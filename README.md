@@ -12,7 +12,7 @@ $ meteor
 # Running on Heroku
 
 ``` bash
-$ heroku create
+$ heroku create --buildpack https://github.com/oortcloud/heroku-buildpack-meteorite.git
 $ heroku labs:enable websockets
 $ git push heroku master
 $ heroku open
